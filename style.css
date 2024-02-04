@@ -85,3 +85,15 @@ input {
     color: #ffffff3a;
     transition: 0.3s;
 }
+
+/* xiaomi redmi 8 note pro responsiev */
+
+@media (max-width: 1200px){
+    body{
+        zoom: 200%;
+    }
+    main{
+        height: 35vh;
+        font-size: 1.5rem;
+    }
+}
