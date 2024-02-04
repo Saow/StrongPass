@@ -1,0 +1,87 @@
+:root{
+    --font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #252a30; */
+    color: #ffff;
+    font-family: var(--font);
+    background-color: #181920;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+input:hover{
+    background-color: #3a3f44;
+    color: white;
+    transition: 0.3s;
+}
+
+input:focus{
+    outline: none;
+    background-color: #3a3f44;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #ffff;
+    background-color: #3a3f44;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #434950;
+    transition: 0.3s;
+}
+
+#result{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+input {
+    flex: 1; /* Let the input grow to fill remaining space */
+}
+
+.material-icons {
+    font-size: 1.5rem;
+    margin-left: 10px; /* Add margin to separate it from the input */
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+    color: #ffffff3a;
+    transition: 0.3s;
+}
