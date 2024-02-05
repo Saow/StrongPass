@@ -3,7 +3,7 @@
     "background_color": "#181920",
     "display": "standalone",
     "scope": "/",
-    "start_url": "saow.github.io/StrongPass/",
+    "start_url": "/saow.github.io/StrongPass/",
     "name": "StrongPass",
     "short_name": "StrongPass",
     "icons": [
