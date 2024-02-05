@@ -3,7 +3,7 @@
     "background_color": "#181920",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/StrongPass",
     "name": "StrongPass",
     "short_name": "StrongPass",
     "icons": [
