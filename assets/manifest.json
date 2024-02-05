@@ -32,12 +32,13 @@
       {
         "src": "/assets/screenshot1.png",
         "sizes": "1080x1920",
+        // "form_factor": "wide",
         "type": "image/png"
       },
         {
             "src": "/assets/screenshot2.png",
             "sizes": "1080x1920",
-            "form_factor": "wide",
+            // "form_factor": "wide",
             "type": "image/png"
         }
     ]
