@@ -90,10 +90,9 @@ input {
 
 @media (max-width: 1200px){
     body{
-        zoom: 200%;
+        zoom: 120%;
     }
     main{
         height: 35vh;
-        font-size: 1.5rem;
     }
 }
